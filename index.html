@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="diceForm">
+        <h1>Welcome to the FE Dice Project</h1>
+        <br>
+        <label># of dice:</label>
+        <input type="number" id="diceCount" value="1" min="1" max="100">
+        <button type="button" id="rollButton" onclick="rollDice()">Roll Dice</button>
+        <div id="result"></div>
+        <div id="diceContainer"></div> 
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>
